@@ -1,0 +1,54 @@
+.body{
+    width: 100%;
+}
+.vido {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    position: relative;
+    width: 640px;
+    height: 360px;
+}
+
+#video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#adContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.main-container{
+    background-color: rgb(48, 52, 56);
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* margin: 0% 15% 0% 15%; */
+    padding: 0;
+}
+
+#text1{
+
+
+    color: rgb(247, 234, 234); margin: 0% 10% 5% 10%; text-align: justify;
+    padding: 10px;
+}
+
